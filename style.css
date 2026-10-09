@@ -1,0 +1,696 @@
+#title{
+    padding: 20px auto;
+    color:rgb(244, 47, 47);
+    font-size: 40px;
+    text-align: center;
+    padding: 10px auto;
+}
+.container1 {
+    width: 35%;
+    height: 100vh;
+    color:rgb(0, 0, 0);
+    background-color: black;
+    position: absolute;
+    scrollbar-width: none;
+
+}
+.navpreant{
+    position: fixed;
+    top: 5px;
+    left: 15px;
+    z-index: 1000;
+}
+.container1 a{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px;
+    text-align: center;
+    text-decoration-color: black;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    scrollbar-width: none;
+    
+}
+.container1 a:hover {
+    background-color: rgb(19, 156, 108);
+    cursor: pointer;
+}
+.Menuparent {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 280px;
+    height: 100vh;
+    background-color: bisque;
+    padding: 80px 0 0 0;
+    display: none;
+    z-index: 999;
+    overflow-y: auto;
+    box-shadow: 2px 0 20px rgba(0, 0, 0, 0.3);
+    animation: slidein 0.3s ease;
+}
+@keyframes slidein {
+    from{
+        transform: translate(-100%);
+    }
+    to{
+        transform: translate(0);
+    }
+}
+.menu.show{
+    display: block;
+}
+.menu-link {
+    display: block;
+    padding: 18px 25px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s;
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 4px solid transparent;
+}
+.menu-link:hover{
+    background-color: #00e676;
+    border-right-color: bisque;
+    padding-right: 35px;
+}
+.navpreant button {
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+.container1{
+    background-color: aliceblue;
+}
+#btnclosenav {
+    position: absolute;
+    left: auto;
+}
+.hide {
+    display: none !important ;
+}
+.videoover {
+    display: block;
+    height: 500px;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+.pp1 {
+    background-color: rgba(17, 192, 151, 0.781);
+    padding: 40px 20px;
+    text-align: center;
+}
+.page-hide {
+    display: none;
+}
+.pp1 h1 {
+    padding:auto;
+    color: rgb(202, 44, 16);
+    text-shadow: 4px 2px 4px #000000;
+}
+.pp1 h2 {
+    padding:auto;
+    color:rgb(251, 250, 253);
+    text-shadow: 4px 2px 4px #000000;
+}
+.pp1 h3 {
+    padding:auto;
+    color: #00e676;
+    text-shadow: 4px 2px 4px #000000;
+}
+.radiogroub  {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.Questionparent p{
+    color: rgb(210, 0, 0);
+    padding: 2px;
+    font-size: 20px;
+    text-shadow: 0 0 0 #faf8f8;
+    text-align: center;
+
+}
+.image1 {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.Login {
+    text-align: center;
+    color: rgb(250, 249, 249);
+    margin: 40px auto;
+    padding: 30px;
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    backdrop-filter: blur(12px);
+    font-size: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+    url("3d-render-modern-gym-fitness-room-photo.jpg");
+    max-width: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Login h1{
+    color: white;
+    align-items: center;
+}
+.Login img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.Questionparent .question {
+    color: rgb(251, 250, 250)
+}
+#login-button {
+    padding: 10px 20px;
+    
+}
+#location #Titleloca{
+    justify-content: center;
+    font-size: 40px;
+}
+#contentloca {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#infoloca {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#algerimage {
+    height: 500px;
+    width: 500px;
+}
+#location p{
+    color: black;
+    font-size: 50px;
+}
+#location a{
+    font-size: 40px;
+}
+/*services*/
+#servicesbody{
+    background-color: #00e676;
+}
+#servicesparent p{
+    font-size: 30px;
+    color: black;
+}
+#servicesparent a{
+    height: auto;
+    width: 150px;
+    display: block;
+    color: black;
+    margin-bottom: 25px;
+    font-size: 30px;
+    border: 2px solid black;
+}
+#servicestuhome{
+    color: #000000;
+    font-size: 40px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px;
+    padding: auto auto;
+
+}
+/*Pruducts*/
+#bodyPruducts{
+    background-color: #00e676;
+}
+#produparent{
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+}
+#product1 {
+    height: auto;
+    width: 200px;
+    border: 2px black solid;
+    display: inline-block;
+}
+#product1 h1,h2{
+    font-size: auto;
+    text-align: center;
+}
+#btnbey1{
+    display: block;
+    padding: 8px 10px;
+    margin: 10px auto;
+    font-size: 16px;
+    color: #000000;
+    cursor: pointer;
+}
+#product1 img {
+    height: 50%;
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+#product2 {
+    height: auto;
+    width: 200px;
+    border: 2px black solid;
+    display: inline-block;
+}
+#product2 h1,h2{
+    font-size: auto;
+    text-align: center;
+}
+#btnbey2{
+    display: block;
+    padding: 8px 10px;
+    margin: 10px auto;
+    font-size: 16px;
+    color: #000000;
+    cursor: pointer;
+}
+#product2 img {
+    height: 50%;
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+#product3 {
+    height: auto;
+    width: 200px;
+    border: 2px black solid;
+    display: inline-block;
+}
+#product3 h1,h2{
+    font-size: auto;
+    text-align: center;
+}
+#btnbey3{
+    display: block;
+    padding: 8px 10px;
+    margin: 10px auto;
+    font-size: 16px;
+    color: #000000;
+    cursor: pointer;
+}
+#product3 img {
+    height: 50%;
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+#product4 {
+    height: auto;
+    width: 200px;
+    border: 2px black solid;
+    display: inline-block;
+}
+#product4 h1,h2{
+    font-size: auto;
+    text-align: center;
+}
+#btnbey4{
+    display: block;
+    padding: 8px 10px;
+    margin: 10px auto;
+    font-size: 16px;
+    color: #000000;
+    cursor: pointer;
+}
+#product4 img {
+    height: 50%;
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+#product5 {
+    height: auto;
+    width: 200px;
+    border: 2px black solid;
+    display: inline-block;
+}
+#product5 h1,h2{
+    font-size: auto;
+    text-align: center;
+}
+#btnbey5 {
+    display: block;
+    padding: 8px 10px;
+    margin: 10px auto;
+    font-size: 16px;
+    color: #000000;
+    cursor: pointer;
+}
+#product5 img {
+    height: 50%;
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+#product6 {
+    height: auto;
+    width: 200px;
+    border: 2px black solid;
+    display: inline-block;
+}
+#product6 h1,h2{
+    font-size: auto;
+    text-align: center;
+}
+#btnbey6 {
+    display: block;
+    padding: 8px 10px;
+    margin: 10px auto;
+    font-size: 16px;
+    color: #000000;
+    cursor: pointer;
+}
+#product6 img {
+    height: 50%;
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+#bodyPruducts a{
+    color: #000000;
+    font-size: 40px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px;
+    padding: auto auto;
+}
+/*renewal*/
+#Reviewsbody {
+    background-color: #00e676;
+}
+#Reviewsparent p{
+    font-size: 30px;
+    color: black;
+}
+#Reviewsparent a{
+    height: auto;
+    width: 150px;
+    display: block;
+    color: black;
+    margin-bottom: 25px;
+    font-size: 30px;
+    border: 2px solid black;
+}
+#Reviewstuhome {
+    color: #000000;
+    font-size: 40px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px;
+    padding: auto auto;
+
+}
+/*Scheducta*/
+#Scheductabody{
+    background-color: #00e676;
+}
+/*renawal*/
+#renewalbody{
+    background-color: #00e676;
+}
+#titleManOffers{
+    font-size: 60px;
+    text-align: center;
+}
+#Offerman{
+    padding: auto;
+    padding: 2px 2px ;
+}
+#BODYBUILDINGtitleman{
+    font-size: 30px;
+}
+#TIMANBODYBUILDINGUNDCARDIO{
+    font-size: 30px;
+}
+#offersmanbody{
+    
+}
+#offerman1 {
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    height: 250px
+    width: 250px
+    gap: 12px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+#offerman1 button{
+    font-size: 20px;
+    color: #00e676;
+    background-color: #000000;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+#offerman2 {
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    height: 250px
+    width: 250px
+    gap: 12px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+#offerman2 button{
+    font-size: 20px;
+    color: #00e676;
+    background-color: #000000;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+#offerman3 {
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    height: 250px
+    width: 250px
+    gap: 12px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+#offerman3 button{
+    font-size: 20px;
+    color: #00e676;
+    background-color: #000000;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+#offerman11 {
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    height: 250px
+    width: 250px
+    gap: 12px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+#offerman11 button{
+    font-size: 20px;
+    color: #00e676;
+    background-color: #000000;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#offerman22 {
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    height: 250px
+    width: 250px
+    gap: 12px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+#offerman22 button{
+    font-size: 20px;
+    color: #00e676;
+    background-color: #000000;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+#offerman32{
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    height: 250px
+    width: 250px
+    gap: 12px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+#offerman32 button{
+    font-size: 20px;
+    color: #00e676;
+    background-color: #000000;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+#titleWomenOffers {
+    font-size: 60px;
+    text-align: center;
+}
+#offerwomen1{
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    height: 250px
+    width: 250px
+    gap: 12px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+#offerwomen1 button{
+    font-size: 20px;
+    color: #00e676;
+    background-color: #000000;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+#offerwomen2{
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    height: 250px
+    width: 250px
+    gap: 12px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+#offerwomen2 button{
+    font-size: 20px;
+    color: #00e676;
+    background-color: #000000;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+#offerwom3 {
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    height: 250px
+    width: 250px
+    gap: 12px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+#offerwom3 button{
+    font-size: 20px;
+    color: #00e676;
+    background-color: #000000;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+#renewaltuhome{
+    color: #000000;
+    font-size: 40px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px;
+    padding: auto auto;
+}
+/*scheducts*/
+#Scheductabody{
+    padding: 20px; 
+}
+#Scheductabody table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#Scheductabody th, td{
+    color: black;
+    margin-bottom: 10px;
+
+}
+#Scheductabody tbody tr:hover{
+    background-color: aquamarine;
+}
+#ppp1{
+    border: 2px solid black;
+}
+#ppp2{
+    border: 2px solid black;
+}
+#schductstuhome{
+    color: #000000;
+    font-size: 40px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px;
+    padding: auto auto;
+}
